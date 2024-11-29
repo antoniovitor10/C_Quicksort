@@ -42,9 +42,9 @@ int main(){
    for (i = 0; i < n; i++) {
       arr[i] = rand() % n;
    }
-   
+   start = clock();
    quickSort(arr, 0, n-1);
-
+   end = clock();
    printf("The sorted array is: \n");
    printArray(arr, n);
    return 0;

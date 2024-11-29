@@ -43,4 +43,3 @@ int main(){
    printf("The sorted array is: \n");
    printArray(arr, n);
    return 0;
-}
